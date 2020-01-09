@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: gray;
+  background-size: cover;
+  color: blueviolet;
+  font-family: "Handlee", cursive;
+}
+/*COMENTARIOS*/
+/*==============================================================*/
+/*                          CONTENEDOR PADRE                    */
+/*==============================================================*/
+.flex-container {
+  /* width: 700px;
+    height: 500px;
+    background-color: white;
+    border: 1px solid black; */
+  display: flex;
+  justify-content: center; /*para dar estilo a lo horizontal */
+  align-items: center; /*para dar estilo a la vertical */
+  height: 100vh; /*vh para adaptar al alto del dispositivo*/
+  width: 100%;
+  color: green;
+}
+
+.flex-container > .tarjeta {
+  background-color: white;
+  color: black;
+  width: 500px;
+  height: 350px;
+}
+/*==============================================================*/
+/*                          CONTENEDOR TITULO Y LOGO            */
+/*==============================================================*/
+
+.flex-titulo {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid; */
+  width: 100%;
+  height: 75px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+  /* border: 1px solid; */
+  font-size: 35px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  margin-top: 5px;
+
+  /* border: 1px solid; */
+}
+
+/*==============================================================*/
+/*                          CONTENEDOR CONTENIDO               */
+/*==============================================================*/
+.flex-contenido {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 220px;
+}
+
+.flex-cont_izq {
+  display: flex;
+  width: 50%;
+  margin-left: 15px;
+  text-align: justify;
+  /* border: 1px solid; */
+  font-size: 18px;
+}
+
+.flex-cont_der {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 15px;
+  margin-right: 15px;
+  /* border: 1px solid; */
+}
+
+.derecho {
+  font-size: 15px;
+  font-weight: bold;
+  color: lightslategray;
+  border-bottom: 2px solid;
+}
+
+/*==============================================================*/
+/*                          CONTENEDOR BUTON                   */
+/*==============================================================*/
+
+.boton {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 125px;
+  margin-top: 5px;
+  /* font-size: 9px; */
+  /* background: rgb(209, 206, 206); */
+  /* color: rgb(34, 33, 33); */
+  /* font-family: "Sofadi One", cursive; */
+}
